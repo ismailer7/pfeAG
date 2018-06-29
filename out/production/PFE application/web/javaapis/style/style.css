@@ -1,0 +1,103 @@
+ body {
+    background-color: #ccc;
+    background-image: url("../imgs/b11.jpg");
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 60px;
+    letter-spacing: 2px;
+  }
+
+  .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+  }
+
+  .row {
+      margin-left: 33.33%;
+      transform: translate(-21%);
+  }
+  .col-md-4 {
+    padding: 40px;
+  }
+  img {
+    width: 200px;
+    background-color: white;
+    border: 2px solid #20B2AA;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+    position: relative;
+  }
+
+  img:hover {
+    box-shadow: 0 0 10px 5px #000;
+    opacity: 0.8;
+    transition: all 0.2s ease;
+    transform: scale(1.2);
+
+  }
+  img:hover + .hov {
+    display: block;
+    transition: all 0.2s ease;
+  }
+
+  .jumbotron {
+    min-height: 50px;
+    padding: 0px;
+    text-align: center;
+    background-color: #20B2AA;
+    color: #ffeabf;
+    border-radius: 0;
+    width: 100%;
+    cursor: default;
+    box-shadow: 0px 0px 0px 5px #FFEBCD;
+  }
+  footer {
+    color: white;
+    background: #708090;
+    text-align: center;
+    height: 100%;
+    opacity: 0.8;
+    cursor: default;
+    border-top: 1px solid white;
+    box-shadow: 0px 0px 0px 2px white;
+  }
+  .col-md-4 {
+    height: 240px;
+  }
+  .container table {
+    background: white;
+    opacity: 0.9;
+  }
+
+  a:hover {
+    color: red;
+    text-decoration: none;
+  }
+  a {color:#00BFFF;}
+
+
+  h4 {
+    left: 18px;
+    position:absolute;
+    text-align:center;
+    top: -15px;
+    padding-top: 5px;
+    color: #FFEBCD;
+    width: 244px;
+    height: 40px;
+    background: #20B2AA;
+    visibility: hidden;
+    border-radius: 3px;
+    opacity: 0;
+    transition: all 0.4s linear;
+    border: 3px solid #FFEBCD;
+  }
+
+   img:hover + h4 {
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.4s linear;
+  }
+  .icon:before {
+    font-family: "Font Awesome 5 Brands";  content: "\f007";
+  }

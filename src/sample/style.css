@@ -1,0 +1,70 @@
+#body {
+    -fx-background-image: url("../web/javaapis/imgs/b11.jpg");
+}
+
+#box, #dataIn {
+    -fx-border-color: #696969;
+    -fx-border-width: 2;
+}
+
+
+#graph, #optimise, #clear, #quit, #api, #sc, #save{
+    -fx-background-color: #CD5C5C;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+
+
+}
+
+#graph:focused, #optimise:focused, #clear:focused, #quit:focused, #api:focused, #sc:focused, #save:focused  {
+    -fx-background-color: #bc3a3a;
+}
+
+#graph:hover, #optimise:hover, #clear:hover, #quit:hover, #api:hover, #sc:hover, #save:hover  {
+    -fx-background-color: #ff6666;
+}
+
+.text-field.error {
+ -fx-border-color: #dc143c;
+ -fx-border-width: 2px;
+}
+
+.series {
+    -fx-stroke-width: 2px;
+    -fx-effect: null;
+-fx-stroke: #f0e68c;
+-fx-background-color: #f0e68c, white;
+}
+
+.default-color0.chart-series-line { -fx-stroke:  #20B2AA;}
+
+.chart {
+    -fx-background-color: #FFFAF0;
+    -fx-legend-visible: true;
+}
+
+.chart-title {
+    -fx-text-fill: black;
+    -fx-font-size: 1.6em;
+}
+
+.default-color0.chart-line-symbol {
+    -fx-background-color: #20B2AA, white;
+}
+
+#functionInput:hover, #rangeInput:hover, #stepsInput:hover {
+    -fx-border-color:  #20B2AA;
+}
+
+#functionInput:focused, #rangeInput:focused, #stepsInput:focused {
+     -fx-control-inner-background: #F0FFFF;
+    -fx-border-color:  #20B2AA;
+}
+
+
+
+
+
+
+
+
